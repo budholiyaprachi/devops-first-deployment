@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-xyz-container
-          image: your-dockerhub-username/hello-xyz:latest
+          image: lavishkothari/hello-xyz:latest
           ports:
             - containerPort: 5000
 ---
