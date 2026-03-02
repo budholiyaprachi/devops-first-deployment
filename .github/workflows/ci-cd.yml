@@ -11,6 +11,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    environment:
+      name: DOCKER_USERNAME
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
